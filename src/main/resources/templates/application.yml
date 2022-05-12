@@ -1,0 +1,7 @@
+server:
+  port: 8080
+
+eureka:
+  client:
+    registerWithEureka: true #telling the server not to register himself in the service registry
+    fetchRegistry: true
